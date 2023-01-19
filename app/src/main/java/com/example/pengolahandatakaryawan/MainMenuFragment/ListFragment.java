@@ -1,5 +1,8 @@
 package com.example.pengolahandatakaryawan.MainMenuFragment;
 
+import static com.example.pengolahandatakaryawan.LaporanAkhir.ArrayListDepartemen;
+import static com.example.pengolahandatakaryawan.MainMenuFragment.DataFragment.departemenMap;
+
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -102,6 +105,7 @@ public class ListFragment extends Fragment {
         inflater.inflate(R.menu.menu_item,menu);
         MenuItem menuItem = menu.findItem(R.id.search);
         SearchView searchView = (SearchView) MenuItemCompat.getActionView(menuItem);
+        searchView.setQueryHint("Search by NIK!");
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {

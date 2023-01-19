@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".LaporanAkhir">
+
+    <TextView
+        android:id="@+id/jumlahTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_reg"
+        android:text="Jumlah karyawan keseluruhan">
+    </TextView>
+
+    <TextView
+        android:id="@+id/jumlahPria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jumlahTotal"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_reg"
+        android:text="Jumlah karyawan Pria">
+    </TextView>
+
+    <TextView
+        android:id="@+id/jumlahWanita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jumlahPria"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_reg"
+        android:text="Jumlah karyawan Wanita">
+    </TextView>
+
+    <ListView
+        android:id="@+id/lvDepartemen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jumlahWanita">
+    </ListView>
+
+    <ListView
+        android:id="@+id/lvDivisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lvDepartemen">
+    </ListView>
+
+</RelativeLayout>

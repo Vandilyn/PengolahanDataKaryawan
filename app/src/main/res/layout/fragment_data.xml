@@ -59,11 +59,13 @@
         android:id="@+id/membuatReport"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Membuat report karyawan"
-        android:layout_margin="12dp"
         android:layout_below="@id/nambahKaryawan"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
         android:background="@drawable/button"
-        android:textColor="@color/white">
-    </androidx.appcompat.widget.AppCompatButton>
+        android:text="Membuat report karyawan"
+        android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
 
 </RelativeLayout>
