@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainMenuFragment.DataFragment">
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:fontFamily="@font/poppins_reg"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nambahKaryawan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menambah karyawan"
+        android:layout_margin="12dp"
+        android:layout_below="@id/data"
+        android:background="@drawable/button"
+        android:textColor="@color/white">
+    </androidx.appcompat.widget.AppCompatButton>
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/merubahKaryawan"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/nambahKaryawan"-->
+<!--        android:layout_marginStart="12dp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:layout_marginEnd="12dp"-->
+<!--        android:layout_marginBottom="12dp"-->
+<!--        android:background="@drawable/button"-->
+<!--        android:text="Merubah karyawan"-->
+<!--        android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/menghapusKaryawan"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/merubahKaryawan"-->
+<!--        android:layout_marginStart="12dp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:layout_marginEnd="12dp"-->
+<!--        android:layout_marginBottom="12dp"-->
+<!--        android:background="@drawable/button"-->
+<!--        android:text="Menghapus karyawan"-->
+<!--        android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/membuatReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Membuat report karyawan"
+        android:layout_margin="12dp"
+        android:layout_below="@id/nambahKaryawan"
+        android:background="@drawable/button"
+        android:textColor="@color/white">
+    </androidx.appcompat.widget.AppCompatButton>
+
+</RelativeLayout>

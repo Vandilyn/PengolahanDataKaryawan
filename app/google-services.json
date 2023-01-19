@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "649953205029",
+    "firebase_url": "https://pengelolaandatakaryawan-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pengelolaandatakaryawan",
+    "storage_bucket": "pengelolaandatakaryawan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649953205029:android:5d4e5e0b7d63b0a01998cc",
+        "android_client_info": {
+          "package_name": "com.example.pengolahandatakaryawan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649953205029-vqc507jnr1m4dpsqfe0k68h6gbkkcs1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAezjWLA_18MlSEhXkK1-2iVJiB58TobDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649953205029-vqc507jnr1m4dpsqfe0k68h6gbkkcs1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

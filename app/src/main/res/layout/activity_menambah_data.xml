@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    tools:context=".MenambahData">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Menambah Karyawan"
+        android:textColor="@color/black"
+        android:textSize="28dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/nikField"
+        android:textColor="@color/black"
+        android:textSize="18dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text"
+        android:hint="Nama karyawan"
+        android:textSize="21dp"></EditText>
+
+    <TextView
+        android:id="@+id/jenisKelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameField"
+        android:layout_marginTop="10dp"
+        android:text="Jenis kelamin"
+        android:textColor="@color/black"
+        android:textSize="18dp"></TextView>
+
+    <RadioGroup
+        android:id="@+id/opsiKelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/jenisKelamin">
+        <RadioButton
+            android:id="@+id/pria"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Pria">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/wanita"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Wanita">
+        </RadioButton>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/departemen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Departemen"
+        android:layout_below="@id/opsiKelamin"
+        android:textColor="@color/black"
+        android:textSize="18dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/departemenField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/departemen"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text"
+        android:textSize="21dp"
+        android:hint="Departemen"></EditText>
+
+    <TextView
+        android:id="@+id/divisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Divisi"
+        android:layout_below="@id/departemenField"
+        android:textColor="@color/black"
+        android:textSize="18dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/divisiField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divisi"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text"
+        android:hint="Divisi"
+        android:textSize="21dp"></EditText>
+
+    <TextView
+        android:id="@+id/NIK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="NIK"
+        android:layout_below="@id/title"
+        android:textColor="@color/black"
+        android:textSize="18dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/nikField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NIK"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text"
+        android:hint="NIK"
+        android:textSize="21dp"></EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan data"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true">
+    </androidx.appcompat.widget.AppCompatButton>
+
+</RelativeLayout>

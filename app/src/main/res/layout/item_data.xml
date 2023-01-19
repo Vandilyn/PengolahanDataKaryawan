@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/nik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIK"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/namaKaryawan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nik"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:text="Nama karyawan">
+    </TextView>
+
+    <TextView
+        android:id="@+id/jenisKelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaKaryawan"
+        android:text="Jenis kelamin: "
+        android:textColor="@color/black"
+        android:textSize="18dp"></TextView>
+
+    <TextView
+        android:id="@+id/departemen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jenisKelamin"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:text="departemen">
+    </TextView>
+
+    <TextView
+        android:id="@+id/divisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/departemen"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:text="divisi">
+    </TextView>
+
+</RelativeLayout>
